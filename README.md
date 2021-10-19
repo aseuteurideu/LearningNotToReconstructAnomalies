@@ -41,7 +41,7 @@ Select --dataset_type from ped2, avenue, or shanghai.
 For more details, check train.py
 
 
-## Pre-trained model and memory items
+## Pre-trained models
 
 * Model in Table 1
 
