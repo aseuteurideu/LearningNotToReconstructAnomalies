@@ -28,7 +28,7 @@ python train.py --dataset_type ped2
 
 * Training patch based model
 ```bash
-python train.py --dataset_type ped2 --pseudo_anomaly_jump_cifar_inpainting 0.2 --max_size 0.5 --max_move 10
+python train.py --dataset_type ped2 --pseudo_anomaly_cifar_inpainting_smoothborder 0.2 --max_size 0.5 --max_move 10
 ```
 
 * Training skip frame based model
