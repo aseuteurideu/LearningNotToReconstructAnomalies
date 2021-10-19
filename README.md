@@ -59,7 +59,7 @@ For more details, check train.py
 
 * Various patch based models on Ped2 (Fig. 5(c))
 
-| Intruder Dataset    | Patching Techniques       | AUC           | Weight        | 
+| Intruder Dataset    | Patching Technique       | AUC           | Weight        | 
 | -------------- | ------------- | ------------- | ------------- | 
 | CIFAR-100 | SmoothMixS          |   94.77%       | [ [drive](https://drive.google.com/file/d/18NO0CyaCGT4jUhtcilxdGt7ud6P7vmI6/view?usp=sharing) ] | 
 | ImageNet | SmoothMixS        |   93.34%       | [ [drive](https://drive.google.com/file/d/1CdEwSd5ouBBcGeuJci3EN92nLG5whLw_/view?usp=sharing) ] | 
@@ -72,15 +72,15 @@ For more details, check train.py
 ## Evaluation
 * Test the model
 ```bash
-python evaluate.py --dataset_type ped2 --dataset_path dataset --model_dir path_to_weight_file.pth
+python evaluate.py --dataset_type ped2 --model_dir path_to_weight_file.pth
 ```
 * Test the model and save result image
 ```bash
-python evaluate.py --dataset_type ped2 --dataset_path dataset --model_dir path_to_weight_file.pth --img_dir folder_path_to_save_image_results
+python evaluate.py --dataset_type ped2 --model_dir path_to_weight_file.pth --img_dir folder_path_to_save_image_results
 ```
 * Test the model and generate demonstration video frames
 ```bash
-python evaluate.py --dataset_type ped2 --dataset_path dataset --model_dir path_to_weight_file.pth --vid_dir folder_path_to_save_video_results
+python evaluate.py --dataset_type ped2 --model_dir path_to_weight_file.pth --vid_dir folder_path_to_save_video_results
 ```
 Then compile the frames into video. For example, to compile the first video in ubuntu:
 ```bash
