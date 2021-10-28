@@ -21,7 +21,6 @@ parser.add_argument('--num_workers', type=int, default=2, help='number of worker
 parser.add_argument('--dataset_type', type=str, default='ped2', choices=['ped2','avenue', 'shanghai'], help='type of dataset: ped2, avenue, shanghai')
 parser.add_argument('--dataset_path', type=str, default='dataset', help='directory of data')
 parser.add_argument('--exp_dir', type=str, default='log', help='basename of folder to save weights')
-parser.add_argument('--optimizer', type=str, default='adam', choices=['adam','sgd'], help='adam or sgd with momentum and cosine annealing lr')
 
 parser.add_argument('--model_dir', type=str, default=None, help='path of model for resume')
 parser.add_argument('--start_epoch', type=int, default=0, help='start epoch. usually number in filename + 1')
