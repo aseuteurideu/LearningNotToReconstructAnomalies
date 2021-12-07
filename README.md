@@ -53,7 +53,7 @@ For more details, check train.py
 | Patch based  | Ped2          |   94.77%       | [ [drive](https://drive.google.com/file/d/18NO0CyaCGT4jUhtcilxdGt7ud6P7vmI6/view?usp=sharing) ] |
 | Patch based  | Avenue        |   84.91%       | [ [drive](https://drive.google.com/file/d/1ncIiq4y5FOOPPwI-MBy8v4d1GkU0oYYF/view?usp=sharing) ] |
 | Patch based  | ShanghaiTech  |   72.46%       | [ [drive](https://drive.google.com/file/d/130IxtMIDETPG4hBdiL_BP5LQQWoGHkdM/view?usp=sharing) ] |
-| Skip frame based | Ped2          |   96.50%       | [ [drive](https://drive.google.com/file/d/18NO0CyaCGT4jUhtcilxdGt7ud6P7vmI6/view?usp=sharing) ] |
+| Skip frame based | Ped2          |   96.50%       | [ [drive](https://drive.google.com/file/d/1o0tl4Qmul-ffEHkHEmv9D1536zoQSD5y/view?usp=sharing) ] |
 | Skip frame based  | Avenue        |   84.67%       | [ [drive](https://drive.google.com/file/d/1jE4Y4PKZn6NswjMEnAk_cKvxsRofJ_xT/view?usp=sharing) ] |
 | Skip frame based  | ShanghaiTech  |   75.97%       | [ [drive](https://drive.google.com/file/d/1CSimSklxoCbWWIckZyLVs244iUTMfEYn/view?usp=sharing) ] |
 
