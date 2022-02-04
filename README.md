@@ -91,7 +91,7 @@ ffmpeg -framerate 10 -i frame_00_%04d.png -c:v libx264 -profile:v high -crf 20 -
 ## Bibtex
 ```
 @inproceedings{astrid2021learning,
-  title={Learning Memory-guided Normality for Anomaly Detection},
+  title={Learning Not to Reconstruct Anomalies},
   author={Astrid, Marcella and Zaheer, Muhammad Zaigham and Lee, Jae-Yeong and Lee, Seung-Ik},
   booktitle={BMVC},
   year={2021}
