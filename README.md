@@ -1,5 +1,7 @@
 # Official PyTorch implementation of "Learning Not to Reconstruct Anomalies"
 This is the implementation of the paper "Learning Not to Reconstruct Anomalies" (BMVC 2021).
+[Paper](https://www.bmvc2021-virtualconference.com/assets/papers/0711.pdf) || [arxiv](https://arxiv.org/abs/2110.09742) || [Presentation Video](https://youtu.be/dAWLXWZP6ec)
+
 
 ## Dependencies
 * Python 3.6
