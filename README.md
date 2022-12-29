@@ -10,9 +10,9 @@ This is the implementation of the paper "Learning Not to Reconstruct Anomalies" 
 * Sklearn
 
 ## Datasets
-* USCD Ped2 [[dataset](https://drive.google.com/file/d/1GhIqtImg0xv-sx4nJiFldQ9tCbezmuob/view?usp=share_link)]
-* CUHK Avenue [[dataset](https://drive.google.com/file/d/1zE1flARFJyckS8By5fOEDoFeiKHZH0Wi/view?usp=share_link)]
-* ShanghaiTech [[dataset](https://drive.google.com/file/d/166MaSkFfdsxo_0ksIqr8AeWdVgk21CZ_/view?usp=share_link)]
+* USCD Ped2 [[dataset](https://drive.google.com/file/d/1w1yNBVonKDAp8uxw3idQkUr-a9Gj8yu1/view?usp=sharing)]
+* CUHK Avenue [[dataset](https://drive.google.com/file/d/1q3NBWICMfBPHWQexceKfNZBgUoKzHL-i/view?usp=sharing)]
+* ShanghaiTech [[dataset](https://drive.google.com/file/d/1rE1AM11GARgGKf4tXb2fSqhn_sX46WKn/view?usp=sharing)]
 * CIFAR-100 (for patch based pseudo anomalies)
 * ImageNet (for patch based pseudo anomalies)
 
@@ -49,27 +49,27 @@ For more details, check train.py
 
 | Model           | Dataset       | AUC           | Weight        |
 | -------------- | ------------- | ------------- | ------------- | 
-| Baseline | Ped2          |   92.49%       | [ [drive](https://drive.google.com/file/d/1ARggGh6gh-Y-or0Kd71GlkBRllJsMyjY/view?usp=sharing) ] |
-| Baseline | Avenue        |   81.47%       | [ [drive](https://drive.google.com/file/d/1Eac4macUQ2zPOf6dEOgUvXFEKdDsE1Pg/view?usp=sharing) ] |
-| Baseline | ShanghaiTech  |   71.28%       | [ [drive](https://drive.google.com/file/d/15x_DSu1WP-JVNmbCor316vb4pgTHYof3/view?usp=sharing) ] |
-| Patch based  | Ped2          |   94.77%       | [ [drive](https://drive.google.com/file/d/1R353OYD8yjb-X4kqFZHlFKw3t2bx-jHp/view?usp=sharing) ] |
-| Patch based  | Avenue        |   84.91%       | [ [drive](https://drive.google.com/file/d/1kubAmLXzgI3IK8fHPMVJh7O7dlY-iYmZ/view?usp=sharing) ] |
-| Patch based  | ShanghaiTech  |   72.46%       | [ [drive](https://drive.google.com/file/d/13fQ-HN78VfEFtXg7EoSAExX11E4Qw_Or/view?usp=sharing) ] |
-| Skip frame based | Ped2          |   96.50%       | [ [drive](https://drive.google.com/file/d/1OeGKAXOd3rE-LozS4YB_iD4lFK59QJDX/view?usp=sharing) ] |
-| Skip frame based  | Avenue        |   84.67%       | [ [drive](https://drive.google.com/file/d/1xa5dAq1m5NOu9ZAoMB4ZCMqTYChn5M64/view?usp=sharing) ] |
-| Skip frame based  | ShanghaiTech  |   75.97%       | [ [drive](https://drive.google.com/file/d/1Fj6F-tyg5G80zTqMDRHJXDssY_UzRRXk/view?usp=sharing) ] |
+| Baseline | Ped2          |   92.49%       | [ [drive](https://drive.google.com/file/d/1QN02heGYVgOgivmfMGkPjR0GHwqT4wRg/view?usp=sharing) ] |
+| Baseline | Avenue        |   81.47%       | [ [drive](https://drive.google.com/file/d/1Xqh5hPffEnEsoBIp_tHuHEFziapShl85/view?usp=sharing) ] |
+| Baseline | ShanghaiTech  |   71.28%       | [ [drive](https://drive.google.com/file/d/1Bh2E2pJHkf-uTkELTgKGuezqYg1msLen/view?usp=sharing) ] |
+| Patch based  | Ped2          |   94.77%       | [ [drive](https://drive.google.com/file/d/1kWebjUKEH47BuucWNjMWZKC3gemFmwGp/view?usp=sharing) ] |
+| Patch based  | Avenue        |   84.91%       | [ [drive](https://drive.google.com/file/d/1xYv_jLRBtJTxESJhma0vDzoAxxBLWwZM/view?usp=sharing) ] |
+| Patch based  | ShanghaiTech  |   72.46%       | [ [drive](https://drive.google.com/file/d/13IYKvh0fKDDneD_gX7k7m7YAwAsUVuLb/view?usp=sharing) ] |
+| Skip frame based | Ped2          |   96.50%       | [ [drive](https://drive.google.com/file/d/1_bpHgG8gHGNbbxYwE_Xsp09AJh8WTsn2/view?usp=sharing) ] |
+| Skip frame based  | Avenue        |   84.67%       | [ [drive](https://drive.google.com/file/d/1kgj6zwkbhA_1GDwVk3pectjayTgqO4V-/view?usp=sharing) ] |
+| Skip frame based  | ShanghaiTech  |   75.97%       | [ [drive](https://drive.google.com/file/d/1L1GHQ29THLwFkFcmb2hrNVBSxpC5g9wz/view?usp=sharing) ] |
 
 * Various patch based models on Ped2 (Fig. 5(c))
 
 | Intruder Dataset    | Patching Technique       | AUC           | Weight        | 
 | -------------- | ------------- | ------------- | ------------- | 
-| CIFAR-100 | SmoothMixS          |   94.77%       | [ [drive](https://drive.google.com/file/d/1R353OYD8yjb-X4kqFZHlFKw3t2bx-jHp/view?usp=sharing) ] | 
-| ImageNet | SmoothMixS        |   93.34%       | [ [drive](https://drive.google.com/file/d/1Fa35eIW6bPRhSVJpSla_XLujTeSrsP3U/view?usp=sharing) ] | 
-| ShanghaiTech | SmoothMixS  |   94.74%       | [ [drive](https://drive.google.com/file/d/15UhNXUTcdk3x9czVwNap8DWPbOoWnSoK/view?usp=sharing) ] |
-| Ped2     | SmoothMixS          |   94.15%       | [ [drive](https://drive.google.com/file/d/1PsrUi1YY978bx-Kse9x0X9xl061NWiFP/view?usp=sharing) ] | 
-| CIFAR-100     | SmoothMixC        |   94.22%       | [ [drive](https://drive.google.com/file/d/17gbpqMOqosE6AQx_oXI5WQ1X4M6odpgu/view?usp=share_link) ] |
-| CIFAR-100    | CutMix  |   93.54%       | [ [drive](https://drive.google.com/file/d/1AqOCtZ835_wST_-snoQbypJaW9uYa-MA/view?usp=share_link) ] | 
-| CIFAR-100    | MixUp-patch  |   94.52%       | [ [drive](https://drive.google.com/file/d/13a1X_1kD5SCnbQdWCIpprbZRA3gTuEaB/view?usp=share_link) ] | 
+| CIFAR-100 | SmoothMixS          |   94.77%       | [ [drive](https://drive.google.com/file/d/1kWebjUKEH47BuucWNjMWZKC3gemFmwGp/view?usp=sharing) ] | 
+| ImageNet | SmoothMixS        |   93.34%       | [ [drive](https://drive.google.com/file/d/1LuMpRgYZlLOWetZJYZ_3Pfzv-IftkJMX/view?usp=sharing) ] | 
+| ShanghaiTech | SmoothMixS  |   94.74%       | [ [drive](https://drive.google.com/file/d/1zfsgfT7FYnODA8rew8y6fYvNhuU5Y0sc/view?usp=sharing) ] |
+| Ped2     | SmoothMixS          |   94.15%       | [ [drive](https://drive.google.com/file/d/1W3GZzMjR7C34W-TTcXidlqgKsR192tgs/view?usp=sharing) ] | 
+| CIFAR-100     | SmoothMixC        |   94.22%       | [ [drive](https://drive.google.com/file/d/1FwTW-bf4OCV_bdHY-QhDv3DSL23qpyLa/view?usp=sharing) ] |
+| CIFAR-100    | CutMix  |   93.54%       | [ [drive](https://drive.google.com/file/d/1g5c1rxXrd5Ih6Pv7carmZT-tj0BYBK7C/view?usp=sharing) ] | 
+| CIFAR-100    | MixUp-patch  |   94.52%       | [ [drive](https://drive.google.com/file/d/18Ry2EkMrTjkhsFBCvxAwQ_zHAEgaa8zc/view?usp=sharing) ] | 
 
 ## Evaluation
 * Test the model
